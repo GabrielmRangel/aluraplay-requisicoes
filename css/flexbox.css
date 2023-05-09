@@ -21,9 +21,13 @@
 }
 
 .videos__item {
-    flex-grow: 1;
-    height: 303px;
+    height: 300px;
     width: 300px;
+    flex-grow: 1;
+}
+
+.videos__item:last-of-type{
+    flex-grow: 0;
 }
 
 /* grid vídeos */
